@@ -69,15 +69,17 @@ class App extends Component {
                             </label>
                         </mobiscroll.FormGroup>
                     </mobiscroll.Form>
-                    <mobiscroll.BottomNav theme="ios" type="bottom">
-                        <mobiscroll.NavItem icon="newspaper">News</mobiscroll.NavItem>
-                        <mobiscroll.NavItem icon="material-people" badge="1">People</mobiscroll.NavItem>
-                        <mobiscroll.NavItem icon="bubble" badge="9">Messages</mobiscroll.NavItem>
-                        <mobiscroll.NavItem icon="fa-globe">Notifications</mobiscroll.NavItem>
-                        <mobiscroll.NavItem icon="camera">Your story</mobiscroll.NavItem>
-                        <mobiscroll.NavItem icon="calendar">Events</mobiscroll.NavItem>
-                        <mobiscroll.NavItem icon="line-settings">Preferences</mobiscroll.NavItem>
-                    </mobiscroll.BottomNav>
+                    <div>
+                        <mobiscroll.BottomNav theme="ios" type="bottom">
+                            <mobiscroll.NavItem icon="newspaper">News</mobiscroll.NavItem>
+                            <mobiscroll.NavItem icon="material-people" badge="1">People</mobiscroll.NavItem>
+                            <mobiscroll.NavItem icon="bubble" badge="9">Messages</mobiscroll.NavItem>
+                            <mobiscroll.NavItem icon="fa-globe">Notifications</mobiscroll.NavItem>
+                            <mobiscroll.NavItem icon="camera">Your story</mobiscroll.NavItem>
+                            <mobiscroll.NavItem icon="calendar">Events</mobiscroll.NavItem>
+                            <mobiscroll.NavItem icon="line-settings">Preferences</mobiscroll.NavItem>
+                        </mobiscroll.BottomNav>
+                    </div>
                 </mobiscroll.Page>
             </div>
         );
