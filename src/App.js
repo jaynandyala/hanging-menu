@@ -44,7 +44,7 @@ class App extends Component {
         return (
             <div className="App">
                 <mobiscroll.Page>
-                    <mobiscroll.Form>
+                    <mobiscroll.Form theme="ios">
                         <mobiscroll.Input placeholder="text1"/>
 
                         <mobiscroll.Input placeholder="text2"/>
