@@ -1,7 +1,7 @@
 
 {
-  "short_name": "PusherCoins",
-  "name": "PusherCoins",
+  "short_name": "HM",
+  "name": "HangingMenus",
   "icons": [
     {
       "src": "favicon.ico",
@@ -14,8 +14,9 @@
       "type": "image/png"
     }
   ],
-  "start_url": "./index.html",
+  "start_url": "/",
   "display": "standalone",
   "theme_color": "#000000",
+  "scope": "/",
   "background_color": "#ffffff"
 }
