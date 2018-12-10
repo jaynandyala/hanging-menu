@@ -63,6 +63,7 @@ class App extends Component {
                                     value={this.state.value}
                                     data={this.state.items}
                                     filter={true}
+                                    theme="ios"
                                 >
                                 </mobiscroll.Select>
                             </label>
